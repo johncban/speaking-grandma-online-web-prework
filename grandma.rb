@@ -1,7 +1,7 @@
 def speak_to_grandma(talk)
   if talk == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif talk == talk.capitals
+  elsif talk == talk.capitalize
     return "HUH? SPEAK UP, SONNY!"
   elsif talk == talk.downcase
     return "HUH? SPEAK UP, SONNY!"
